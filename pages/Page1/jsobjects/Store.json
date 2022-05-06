@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tinit: async () => {\n\t\tawait storeValue(\"hello\", \"Aman\", true);\n\t},\n\tdel: async () => {\n\t\tawait storeValue(\"hello\", undefined, true);\n\t}\n}",
+    "body": "export default {\n\tinit: async () => {\n\t\tawait storeValue(\"hello\", \"Test Data\", true);\n\t},\n\tdel: async () => {\n\t\tawait storeValue(\"hello\", undefined, true);\n\t}\n}",
     "variables": []
   },
   "id": "Page1_Store",

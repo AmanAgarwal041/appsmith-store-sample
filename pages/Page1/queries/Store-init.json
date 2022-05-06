@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "async () => {\n\t\tawait storeValue(\"hello\", \"Aman\", true);\n\t}",
+      "body": "async () => {\n\t\tawait storeValue(\"hello\", \"Test Data\", true);\n\t}",
       "jsArguments": [],
       "isAsync": true
     },
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "async () => {\n\t\tawait storeValue(\"hello\", \"Aman\", true);\n\t}"
+      "async () => {\n\t\tawait storeValue(\"hello\", \"Test Data\", true);\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Store",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tinit: async () => {\n\t\tawait storeValue(\"hello\", \"Aman\", true);\n\t},\n\tdel: async () => {\n\t\tawait storeValue(\"hello\", undefined, true);\n\t}\n}",
+    "variables": []
+  },
+  "id": "Page1_Store",
+  "deleted": false,
+  "gitSyncId": "6275041d5984be5f5784c070_627505255984be5f5784c0c2"
+}
